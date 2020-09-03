@@ -10,7 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_03_054053) do
+ActiveRecord::Schema.define(version: 2020_09_03_055036) do
+
+  create_table "memories", force: :cascade do |t|
+    t.string "title"
+    t.datetime "date"
+    t.string "description"
+    t.string "image"
+    t.boolean "favorite"
+    t.integer "pet_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["pet_id"], name: "index_memories_on_pet_id"
+  end
 
   create_table "pets", force: :cascade do |t|
     t.string "name"
@@ -26,4 +38,5 @@ ActiveRecord::Schema.define(version: 2020_09_03_054053) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "memories", "pets"
 end
