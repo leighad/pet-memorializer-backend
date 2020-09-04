@@ -42,4 +42,3 @@ class Api::V1::MemoriesController < ApplicationController
         params.require(:memories).permit(:title, :date, :description, :image, :favorite, :pet_id)
     end
 end
-end
