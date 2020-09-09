@@ -20,7 +20,9 @@ class Api::V1::PetsController < ApplicationController
     end
 
     def update 
+        @pet = Pet.find_by_id(params[:id])
         @pet = Pet.update(pet_params)
+        @pet.save
         render json: @pet 
     end
 
