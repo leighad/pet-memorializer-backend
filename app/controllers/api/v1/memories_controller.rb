@@ -10,7 +10,8 @@ class Api::V1::MemoriesController < ApplicationController
     def create 
         @memory = @pet.memories.build(memory_params)
         if @memory.save
-            render json: @memory 
+            # render json: @memory
+            render json: @pet  
         else 
             render json: { error: 'Please try again- an error has occurred' }
         end
@@ -39,6 +40,6 @@ class Api::V1::MemoriesController < ApplicationController
     end
 
     def memory_params
-        params.require(:memories).permit(:title, :date, :description, :image, :favorite, :pet_id)
+        params.require(:memory).permit(:title, :date, :description, :image, :favorite, :pet_id)
     end
 end
