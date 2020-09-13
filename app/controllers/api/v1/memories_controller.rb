@@ -13,7 +13,7 @@ class Api::V1::MemoriesController < ApplicationController
             # render json: @memory
             render json: @pet  
         else 
-            render json: { error: 'Please try again- an error has occurred' }
+            render json: { error: 'Please try creating your memory again- an error has occurred' }
         end
     end
 

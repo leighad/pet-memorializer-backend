@@ -10,7 +10,7 @@ class Api::V1::PetsController < ApplicationController
         if @pet.save
             render json: @pet 
         else 
-            render json: { error: 'Please try again- an error has occurred' }
+            render json: { error: 'Please try creating your pet again- an error has occurred' }
         end
     end
 
