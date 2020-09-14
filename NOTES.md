@@ -1,72 +1,41 @@
-#App Overview
-    This app is a place to memorialize your beloved pets and to journal all the great times you shared together. I was inspired to create this app because my English Bulldog, Tankie, is nearing the Rainbow Bridge. Our pets are family and this is a place to honor and cherish their memories.
+*Pets*
 
-#User Stories
-    <!-- Users will be able to:
-    -sign up, log in, log out -->
+Spirulina (Sheba) the Tiger Princess 
+My little shadow- you are part of me.
 
-    Users can:
-    -create a pet profile
-    -view their pet collection
-    -update a pet profile
-    -delete a pet profile ???
+Terrapin the Queen
+She ended up being my kitty- and I am so thankful to have had her in my life. Such a sweet girl.
 
-    -create memories for each pet
-    -view their pet's memories
-    -update a pet memory
-    -delete a pet profile ???
+Weston the beloved stinky hound
+He was a fragrant boy but was always down to play catch. His favorite tennis ball would be so soggy, but you would pick it up because his adorable face made you do it.
 
-#Wireframing (attributes and associations)
-    Models will be:
-    <!-- User, Pet, Memory -->
-    Pet, Memory
+Pinchi Pescado the grumpy fish
+This guy was a character- if you got too close to his tank he would splash you!
 
-    <!-- User attributes:
-        username
-        email
-        password_digest  -->
+Rex the hunter
+A tomcat who ruled the neighborhood. He was loved by all but one. Unfortunately it was this one who did him in. Rest in peace.
 
-    <!-- User associations:
-        has_secure_password
-        has_many :pets
-        has_many :memories
-        has_many :commented_pets, through: :comments, source: :pet -->
+Hot Wheels the iguana
+He was a sassy guy who ended up getting too big for me to handle. I'm glad we found a better home for you little guy!
 
 
-    Pet attributes:
-        name
-        kind
-        gender
-        age
-        born
-        passed
-        bio 
-        quote
-        image
+*Memories*
 
-        <!-- user_id -->
+Tankie
+Happy little hopper
+You made me laugh so hard then and still to this day at how you bunny hopped over the train tracks whenever we went to the Bay.
 
-    Pet associations:
-        <!-- belongs_to :user -->
-        has_many :memories
+Pizza Party
+I can't believe you let me put sunglasses on you- how adorable! We really enjoyed eating pizza and drinking beer on the patio with you. Too bad this place is gone now.
 
+A good one
+Every day with you was a good one in some way.
 
-    Memory attributes:
-        title
-        date: datetime?
-        description
-        image
-        favorite??
-        
-        <!-- user_id -->
-        pet_id 
+Starry night
+The beach is our favorite place and even though at first you were afraid of the dark, when your paws touched the sand you were right at home.
 
-    Memory associations:
-        <!-- belongs_to :user -->
-        belongs_to :pet
+Gone swimming
+We tried out your lifejacket for the first time and you had so much fun! I can't believe how brave you are.
 
-#MVP
-    *see spec.md file for checklist*
-
-#Stretch Goals
-
+Terrapin
+Thank you for being such a sweet girl and for giving me my kitty princess who I cared for until she went to see you 20 years after you gave her life.
