@@ -1,5 +1,8 @@
 #App Overview
-    This app is a place to memorialize your beloved pets and to journal all the great times you shared together. I was inspired to create this app because my English Bulldog, Tankie, is nearing the Rainbow Bridge. Our pets are family and this is a place to honor and cherish their memories.
+    This app is a place to memorialize your beloved pets and to journal all the great times you shared together. I was inspired to create this app because my English Bulldog, Tankie, recently crossed the Rainbow Bridge. Our pets are family and this is a place to honor and cherish their memories.
+
+#Connect to code on the frontend at: 
+https://github.com/leighad/pet-memorializer-frontend
 
 #User Stories
     <!-- Users will be able to:
