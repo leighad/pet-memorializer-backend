@@ -1,40 +1,33 @@
-<<<<<<< HEAD
 # App Overview
-    This app is a place to memorialize your beloved pets and to journal all the great times you shared together. I was inspired to create this app because my English Bulldog, Tankie, is nearing the Rainbow Bridge. Our pets are family and this is a place to honor and cherish their memories.
-=======
-#App Overview
-    This app is a place to memorialize your beloved pets and to journal all the great times you shared together. I was inspired to create this app because my English Bulldog, Tankie, recently crossed the Rainbow Bridge. Our pets are family and this is a place to honor and cherish their memories.
+    This app is a place to memorialize your beloved pets and to journal all the great times you shared together. I was inspired to create this app because my adorable English Bulldog, Tankie, crossed the Rainbow Bridge in 2020. Our pets are family and this is a place to honor and cherish their memories.
 
-#Connect to code on the frontend at: 
-https://github.com/leighad/pet-memorializer-frontend
->>>>>>> a1ca6a7d8371f5280b3d7f2a6f11dec1bd65a971
+    *Please note that this is a work in progress- enjoy!*
 
 # User Stories
-    <!-- Users will be able to:
-    -sign up, log in, log out -->
+    Users will be able to:
+    -sign up, log in, log out
 
     Users can:
     -create a pet profile
     -view their pet collection
     -update a pet profile
-    -delete a pet profile ???
+    -delete a pet profile 
 
     -create memories for each pet
     -view their pet's memories
     -update a pet memory
-    -delete a pet profile ???
+    -delete a pet profile 
 
 # Wireframing (attributes and associations)
     Models will be:
-    <!-- User, Pet, Memory -->
     Pet, Memory
 
-    <!-- User attributes:
+    User attributes:
         username
         email
         password_digest  -->
 
-    <!-- User associations:
+    User associations:
         has_secure_password
         has_many :pets
         has_many :memories
@@ -64,7 +57,7 @@ https://github.com/leighad/pet-memorializer-frontend
         date: datetime?
         description
         image
-        favorite??
+        favorite
         
         <!-- user_id -->
         pet_id 
