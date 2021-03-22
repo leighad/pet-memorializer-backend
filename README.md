@@ -1,7 +1,7 @@
-#App Overview
+# App Overview
     This app is a place to memorialize your beloved pets and to journal all the great times you shared together. I was inspired to create this app because my English Bulldog, Tankie, is nearing the Rainbow Bridge. Our pets are family and this is a place to honor and cherish their memories.
 
-#User Stories
+# User Stories
     <!-- Users will be able to:
     -sign up, log in, log out -->
 
@@ -16,7 +16,7 @@
     -update a pet memory
     -delete a pet profile ???
 
-#Wireframing (attributes and associations)
+# Wireframing (attributes and associations)
     Models will be:
     <!-- User, Pet, Memory -->
     Pet, Memory
@@ -65,11 +65,11 @@
         <!-- belongs_to :user -->
         belongs_to :pet
 
-#MVP
+# MVP
     *see spec.md file for checklist*
 
-#Stretch Goals
+# Stretch Goals
 
-better styling
-update and delete functionality
-add image upload
+* better styling and user experience
+* update and delete capability
+* add image upload functionality
